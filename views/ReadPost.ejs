@@ -1,0 +1,37 @@
+
+
+<%- include("./Header.ejs") %>
+
+
+
+
+<!-- main read full  post -->
+
+<body>
+  <section class="readPage CreatePost">
+     <div class="container card">
+    
+      <h1 style="text-align: center; color: rgb(194, 194, 194); padding-block: 16px;" class="artical-Title"> <%= post.Title %></h1>
+
+         <div class="article-img">
+        <img src="<%= post.Img %>" width="300" height="300" loading="lazy" style="max-width: 100%; height: auto;">
+        </div>
+
+        <p style="margin-top: 20px ; text-align: inherit; padding-inline: 26px;">
+          <%= post.content %>
+        </p>
+         
+         <div class="readpost-buttons">
+            <a href="/edit/<%= id %>" class="btn">Edit</a>
+          <form action="/delete/<%= id %>" method="post" style="width: 75px;" >
+                 <button type="submit" class="btn btn-primary">Delete</button>
+          </form>
+         </div>
+        </div>
+  </section>
+  
+</body>
+</html>
+
+
+<%- include("./Footer.ejs") %>
