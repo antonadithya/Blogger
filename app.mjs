@@ -6,7 +6,7 @@ import multer from "multer";
 import { Console } from "console";
 
 const app = express()
-const port = 3000;
+const PORT = process.env.PORT||3000;
 
 
 const BloggerPost = [
@@ -186,4 +186,4 @@ app.post("/delete/:id",(req,res)=>{
 })
 
 
-app.listen(port ,() =>  {console.log (`sever is running ${port}`)});
+app.listen(PORT ,() =>  {console.log (`sever is running ${PORT}`)});
