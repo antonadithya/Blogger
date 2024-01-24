@@ -5,8 +5,7 @@
   "description": "",
   "main": "app.mjs",
   "scripts": {
-    "start": "node app.mjs",
-    "build": "npm install && npm run start"
+    "start": "node app.mjs"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
