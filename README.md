@@ -24,8 +24,8 @@ Our Blogger website is built using Node.js with the EJS templating engine, provi
 
 ## 📷 Screenshots
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/QYXVvJD/mobile-1.png" alt="mobile-1" border="0"></a>
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/WGqK4Fv/mobile-1.png" alt="mobile-1" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/QYXVvJD/mobile-1.png" alt="mobile-1" border="0"></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/WGqK4Fv/mobile-1.png" alt="mobile-1" border="0"></a>
+
 
 
 ## 🚀 Demo
